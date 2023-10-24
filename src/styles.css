@@ -23,6 +23,9 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
+.about-paragraphs {
+    margin: 30px 0;
+}
 .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -47,4 +50,11 @@ p {
 }
 .navigation-links a {
     margin: 20px;
+}
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
 }
